@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Virtual Try-On</h1>
+    <form id="tryonForm" enctype="multipart/form-data">
+        <input type="file" name="person_image" accept="image/*" required>
+        <input type="file" name="cloth_image" accept="image/*" required>
+        <button type="submit">Try On</button>
+    </form>
+    <img id="resultImage" style="display:none;">
+
+    <script>
+        document.getElementById('tryonForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+
+            try {
+                const response = await fetch('/tryon', {
+                    method: 'POST',
+                    body: formData
+                });
+                const data = await response.json();
+
+                if (data.image) {
+                    const resultImg = document.getElementById('resultImage');
+                    resultImg.src = `data:image/jpeg;base64,${data.image}`;
+                    resultImg.style.display = 'block';
+                }
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        });
+    </script>
+</body>
+</html>

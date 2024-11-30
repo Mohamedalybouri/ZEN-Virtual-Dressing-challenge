@@ -1,0 +1,7 @@
+tensorflow-addons
+flask
+numpy
+opencv-python-headless
+scikit-learn
+pandas
+h5py

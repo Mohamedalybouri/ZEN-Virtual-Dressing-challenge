@@ -76,5 +76,3 @@ Contributions are welcome! Please fork the repository and create a pull request 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
-
-*This README template is inspired by [Flutterando's Readme Template](https://github.com/Flutterando/flutterando-readme-template).*

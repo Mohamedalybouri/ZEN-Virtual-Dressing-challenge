@@ -29,12 +29,12 @@ The ZEN Virtual Dressing Challenge aims to revolutionize the way users try on cl
 
 Follow these instructions to set up and run the project on your local machine.
 
-### Prerequisites
+### Prerequisites 🔧
 
 - [Flutter SDK](https://flutter.dev/docs/get-started/install)
 - Dart SDK
 
-### Installation
+### Installation ⚙️ 
 
 1. **Clone the repository**:
 
@@ -54,7 +54,7 @@ Follow these instructions to set up and run the project on your local machine.
    flutter pub get
    ```
 
-### Running the App
+### Running the App ▶️
 
 1. **Connect a device** or start an emulator.
 2. **Run the application**:
@@ -63,15 +63,15 @@ Follow these instructions to set up and run the project on your local machine.
    flutter run
    ```
 
-## Usage
+## Usage 🎮
 
 Upon launching the app, users can create or select an existing avatar, choose outfits from the available collection, and visualize the selected clothing on their avatars. The deep learning models ensure a realistic representation of how the clothes would fit and look.
 
-## Contributing
+## Contributing 🤝
 
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure that your code adheres to the project's coding standards and includes appropriate documentation.
 
-## License
+## License 📜 
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
